@@ -1,4 +1,4 @@
-var car1,car2,car3,car4,wall1,wall2,wall3,wall4;
+var car1,wall1,wall2,wall3,wall4;
 var speed,weight;
 
 function setup() {
@@ -7,12 +7,6 @@ function setup() {
   width = random(400,1500);
   car1 = createSprite(50, 60, 25,11);
   car1.velocityX = 8;
-  car2 = createSprite(50, 150, 25,11);
-  car2.velocityX = 8;
-  car3 = createSprite(50,250,25,11);
-  car3.velocityX = 8;
-  car4 = createSprite(50,360,25,11);
-  car4.velocityX = 8;
   ///wall
   wall1 = createSprite(770,60,20,40);
   wall2 = createSprite(770,150,20,40);
