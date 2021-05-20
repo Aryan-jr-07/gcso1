@@ -1,10 +1,10 @@
 var car1,wall1,wall2,wall3,wall4;
-var speed,weight;
+var speed;
 
 function setup() {
   createCanvas(800,400);
   speed = random(50,90);
-  width = random(400,1500);
+  
   car1 = createSprite(50, 60, 25,11);
   car1.velocityX = 8;
   ///wall
